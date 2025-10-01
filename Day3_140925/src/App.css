@@ -1,0 +1,34 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+input {
+  margin: 4px;
+  width: 100%vw;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 50%;
+  height: 100%;
+}
+.box2 {
+  background-color: aqua;
+  width: 50%;
+  height: 100%;
+}

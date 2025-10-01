@@ -1,0 +1,241 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url("bg.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  background-color: white;
+  width: 30%;
+  height: 80%;
+}
+.box2 {
+  background-image: url("bg2.png");
+  background-color: aqua;
+  width: 30%;
+  height: 80%;
+}
+.textlogin {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+}
+.input {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.input-mail-wrapper {
+  display: flex;
+  border: solid 1px #d4f1ff;
+  border-radius: 4px;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.input-password-wrapper {
+  display: flex;
+  border: solid 1px #d4f1ff;
+  border-radius: 4px;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.input-mail-logo {
+  width: 18px;
+  height: 18px;
+  background-image: url("email-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 12px;
+}
+.input-mail {
+  border: none;
+}
+
+.input-password-logo {
+  width: 18px;
+  height: 18px;
+  background-image: url("email-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 12px;
+}
+.input-password {
+  border: none;
+}
+
+.capcha {
+  display: flex;
+  width: 70%;
+  height: 12%;
+  background-color: #f9f9f9;
+  margin-left: 20px;
+  border-radius: 6px;
+  border: 1px solid #dbdbdb;
+  align-items: center;
+}
+.tick {
+  margin-left: 16px;
+  align-items: center;
+  width: 20%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-image: url("tick.png");
+}
+.wordcapcha {
+  width: 40%;
+  align-items: center;
+  font-weight: 600;
+}
+.recapcha {
+  justify-content: center;
+  height: 80%;
+  width: 40%;
+  background-image: url("recapcha.png");
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-left: 32px;
+}
+.note {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 8%;
+}
+.checkbox {
+  appearance: none;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  background-color: #f6fcff;
+  border: 1px solid #359fd9;
+}
+.wordcheckbox {
+  color: #359fd9;
+}
+.btnlogin {
+  margin-top: 12px;
+  width: 90%;
+  color: white;
+  margin-left: 20px;
+  background-color: #3a85ee;
+}
+.forgetpass {
+  color: #359fd9;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.loginby {
+  margin-top: 0px;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logogg {
+  margin-left: 156px;
+  background-image: url("gg.png");
+  width: 100%;
+  height: 10%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ids-wrapper {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ids {
+  margin-top: 60px;
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  background-position: center;
+  background-image: url("ids.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.content-register-wrapper {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content1 {
+  font-size: 36px;
+  color: white;
+}
+.content2 {
+  text-align: center;
+  font-size: 18px;
+  width: 70%;
+  color: #fff;
+}
+
+.btn-register-wrapper {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-register {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #d4f1ff;
+  width: 52%;
+}
+.hotline-wrapper {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.hotline {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 40px;
+}
+.phone {
+  font-weight: bold;
+}
